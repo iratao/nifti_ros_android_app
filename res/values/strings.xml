@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Teleop</string>
+	<string name="main_geocam_button">Geocam</string>
+	<string name="main_robot_view_button">Robot View</string>	
+	
+	<string name="main_take_photo_button">Camera</string>
+	<string name="main_browse_photos_button">Gallery</string>
+	<string name="main_upload_photos_button">Upload</string>
+
+	<string name="main_gps_warning_title">Warning</string>
+	<string name="main_gps_warning">The GPS is turned off. This application utilizes the GPS extensively. Click \'Turn on\' to go the Location &amp; Security settings to turn it on.</string>
+	<string name="main_gps_warning_ok">Turn On</string>
+	<string name="main_gps_warning_cancel">Exit</string>
+	
+  <string name="main_menu_about">About</string>
+  <string name="main_menu_settings">Settings</string>
+  <string name="main_menu_exit">Exit</string>
+
+	<string name="main_about_dialog_title">GeoCam Mobile %s</string>
+	<string name="main_about_dialog_ok">Ok</string>
+	<string name="main_about_dialog_message_version">Build Date: %1$s\nBranch: %2$s\nCommit: %3$s</string>
+  <string name="main_about_dialog_message_contact">NASA Ames Research Center\nIntelligent Robotics Group\nhttp://irg.arc.nasa.gov</string>
+
+	<string name="camera_name">Camera</string>
+	<string name="camera_saving">Saving image...</string>
+	<string name="camera_focus_instructions">Press shutter button half-way to focus</string>
+	<string name="camera_focus">Focus</string>
+	<string name="camera_hide_keyboard">Please close the keyboard</string>
+	<string name="camera_shutter_button">Shutter Button</string>
+
+	<string name="camera_dialog_ok">Yes</string>
+	<string name="camera_dialog_cancel">No</string>
+
+	<string name="camera_preview_name">Preview</string>
+
+	<string name="camera_preview_annotate_title">Enter notes here:</string>
+	<string name="camera_preview_annotate_dialog_title">Annotate Photo</string>
+
+	<string name="camera_delete_dialog_title">Delete photo?</string>
+	
+	<string name="upload_photos_name">Upload Photos to Server</string>
+	<string name="upload_photos_upload_button">Upload</string>
+	<string name="upload_photos_empty_list">No photos available for upload</string>
+
+	<string name="upload_menu_clear">Clear queue</string>
+	<string name="upload_clear_dialog_title">Clear queue?</string>
+	<string name="upload_clear_dialog_ok">Yes</string>
+	<string name="upload_clear_dialog_cancel">No</string>
+	
+	<string name="settings_name">Settings</string>
+	
+	<string name="fire_icon_name">Select an Icon</string>
+	
+	<string name="track_map_name">Tracks</string>
+	<string name="track_save_name">Save Track</string>
+	
+	<string name="map_menu_location">Current Location</string>
+	<string name="map_menu_track_zoom">Zoom to Fit</string>
+</resources>

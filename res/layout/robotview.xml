@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <org.ros.android.view.visualization.VisualizationView
+      android:id="@+id/visualization"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  
+  <org.ros.android.android_tutorial_teleop.NIFTIRosImageView 
+      android:id="@+id/image" 
+      android:layout_width="300dip"
+      android:layout_height="300dip"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true">
+  </org.ros.android.android_tutorial_teleop.NIFTIRosImageView>
+  
+  <ImageButton android:id="@+id/camera_shutter_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@android:drawable/ic_menu_camera" 
+      android:contentDescription="@string/camera_shutter_button"/>
+  
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- __BEGIN_LICENSE__ -->
+<!-- Copyright (C) 2008-2010 United States Government as represented by -->
+<!-- the Administrator of the National Aeronautics and Space Administration. -->
+<!-- All Rights Reserved. -->
+<!-- __END_LICENSE__ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <FrameLayout
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+        <SurfaceView android:id="@+id/camera_surfaceview"
+        	android:layout_width="wrap_content"
+           	android:layout_height="wrap_content" />
+
+		<LinearLayout
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:orientation="vertical"
+		   android:layout_marginLeft="5dip"
+		   android:layout_marginTop="5dip">
+			
+			<TextView android:id="@+id/camera_textview_roll"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ff00ff00" 
+                                android:shadowColor="#000000" 
+                                android:shadowDx="1.0" 
+                                android:shadowDy="1.0" 
+                                android:shadowRadius="1.0" />
+	
+			<TextView android:id="@+id/camera_textview_pitch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ff00ff00"
+                                android:shadowColor="#000000" 
+                                android:shadowDx="1.0" 
+                                android:shadowDy="1.0" 
+                                android:shadowRadius="1.0" />
+	
+			<TextView android:id="@+id/camera_textview_yaw"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ff00ff00"
+                                android:shadowColor="#000000" 
+                                android:shadowDx="1.0" 
+                                android:shadowDy="1.0" 
+                                android:shadowRadius="1.0" />
+
+			<TextView android:id="@+id/camera_textview_lat"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+                                android:layout_marginTop="5dip"
+				android:textColor="#ff00ff00"
+                                android:shadowColor="#000000" 
+                                android:shadowDx="1.0" 
+                                android:shadowDy="1.0" 
+                                android:shadowRadius="1.0" />
+
+			<TextView android:id="@+id/camera_textview_lon"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ff00ff00"
+                                android:shadowColor="#000000" 
+                                android:shadowDx="1.0" 
+                                android:shadowDy="1.0" 
+                                android:shadowRadius="1.0" />
+
+
+		</LinearLayout>
+
+		<ImageView android:id="@+id/camera_focus_imageview"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+		<ImageButton android:id="@+id/camera_shutter_button"
+			android:layout_gravity="center|right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@android:drawable/ic_menu_camera" />
+	
+</FrameLayout>            
+</LinearLayout>

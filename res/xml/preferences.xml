@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- __BEGIN_LICENSE__ -->
+<!-- Copyright (C) 2008-2010 United States Government as represented by -->
+<!-- the Administrator of the National Aeronautics and Space Administration. -->
+<!-- All Rights Reserved. -->
+<!-- __END_LICENSE__ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+     android:title="Server Settings">
+    <CheckBoxPreference
+      android:key="settings_server_upload_enabled"
+      android:title="Upload"
+      android:summaryOn="Upload photos in the background"
+      android:summaryOff="Do not upload photos in the background"
+      android:defaultValue="true"
+      />
+    <EditTextPreference
+       android:key="settings_server_username"
+       android:title="Username"
+       android:summary=""
+       android:defaultValue=""
+       />
+    <EditTextPreference
+       android:key="settings_server_password"
+       android:title="Password"
+       android:summary=""
+       android:defaultValue=""
+       android:inputType="textPassword"
+       />
+    <EditTextPreference
+       android:key="settings_server_url"
+       android:title="Server URL"
+       android:summary=""
+       android:defaultValue="http://geocamshare.org/share/"
+       />
+  </PreferenceCategory>
+  <PreferenceCategory
+      android:title="Photo Settings">
+    <EditTextPreference
+       android:key="settings_default_notes"
+       android:title="Default Notes"
+       android:summary=""
+       android:defaultValue=""
+       />
+  </PreferenceCategory>
+  <PreferenceCategory
+      android:title="Location Tracking Settings">
+    <ListPreference
+       android:key="settings_tracking_freq"
+       android:title="Update frequency"
+       android:entries="@array/settings_tracking_strings"
+       android:entryValues="@array/settings_tracking_values"
+       android:summary=""
+       android:defaultValue="0"
+       />
+  </PreferenceCategory>  
+  <PreferenceCategory
+      android:title="Other">
+    <Preference
+      android:key="settings_reset"
+      android:title="Reset to original values"
+      android:summary=""
+      />
+  </PreferenceCategory>
+</PreferenceScreen>
